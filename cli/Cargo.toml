@@ -1,0 +1,8 @@
+[package]
+name = "segurodb-cli"
+version = "0.1.0"
+authors = ["x <x@x.x>"]
+
+[dependencies]
+clap = "~2.26.0"
+segurodb = { path = "../segurodb" }

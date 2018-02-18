@@ -1,0 +1,14 @@
+[package]
+name = "benchmarks"
+version = "0.1.0"
+authors = ["debris <marek.kotewicz@gmail.com>"]
+
+[dev-dependencies]
+segurodb = { path = "../segurodb" }
+rocksdb = "0.8.1"
+lmdb-zero = "0.4.1"
+ethereum-types = { git = "https://github.com/paritytech/primitives" }
+tempdir = "0.3.5"
+cuckoofilter = "0.3.2"
+itertools = "0.7.3"
+rand = "0.3.18"
